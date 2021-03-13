@@ -7,3 +7,8 @@ def clear():
     else: 
         _ = system('clear') 
 print("Enter No of Roads:",end=" ") 
+noOfRoad=int(input())
+for i in range(noOfRoad):
+    print("Enter no of Vech on road %d: "%(i+1),end=" ")
+    noOfVech=int(input())
+    print("Enter threshold value for road %d: "%(i+1),end=" ")
