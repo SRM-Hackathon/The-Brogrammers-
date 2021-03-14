@@ -19,3 +19,10 @@ for i in range(noOfRoad):
     waittime=int(input())
     amb=15
     if(isAmbulance):
+     while(amb):
+            clear()
+            print("Signal Status: Green - for ambulance")
+            print(amb)
+            time.sleep(1)
+            amb-=1
+    waittime=int(waittime*(noOfVech/threshold))
