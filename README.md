@@ -3,7 +3,7 @@ from time import sleep
 
 
 class Road:
-    def init(self, vehicle, lanes):
+    def __init__(self, vehicle, lanes):
         self.vehicle = vehicle
         self.ambulance = False
         self.lanes = lanes
