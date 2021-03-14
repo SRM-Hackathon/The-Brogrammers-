@@ -1,4 +1,4 @@
-# The-Brogrammers-
+#the-brogrammers
 import time
 from os import system, name
 def clear(): 
@@ -19,10 +19,19 @@ for i in range(noOfRoad):
     waittime=int(input())
     amb=15
     if(isAmbulance):
-     while(amb):
+        while(amb):
             clear()
             print("Signal Status: Green - for ambulance")
             print(amb)
             time.sleep(1)
             amb-=1
     waittime=int(waittime*(noOfVech/threshold))
+    
+    while(waittime):
+        clear()
+        print("Signal Status: Red")
+        print(waittime)
+        time.sleep(1) 
+        waittime-=1
+    clear()
+print("Over") 
