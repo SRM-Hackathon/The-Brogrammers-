@@ -12,3 +12,5 @@ for i in range(noOfRoad):
     print("Enter no of Vech on road %d: "%(i+1),end=" ")
     noOfVech=int(input())
     print("Enter threshold value for road %d: "%(i+1),end=" ")
+    threshold=int(input())
+    print("Is ambulance there on road(Enter 0 or 1) %d: "%(i+1),end=" ")
