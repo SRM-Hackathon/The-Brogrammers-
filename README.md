@@ -14,3 +14,8 @@ for i in range(noOfRoad):
     print("Enter threshold value for road %d: "%(i+1),end=" ")
     threshold=int(input())
     print("Is ambulance there on road(Enter 0 or 1) %d: "%(i+1),end=" ")
+    isAmbulance=int(input())
+    print("Enter Waiting time:",end=" ")
+    waittime=int(input())
+    amb=15
+    if(isAmbulance):
